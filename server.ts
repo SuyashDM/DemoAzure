@@ -4,7 +4,7 @@ const app = express();
 app.set('view engine', 'ejs');
 
 
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 app.get('/',(req: any ,res: any)=>{
     res.send("hello world")
