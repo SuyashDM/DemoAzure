@@ -6,6 +6,6 @@
     "@types/node": "^20.5.9"
   },
   "scripts":{
-    "start":"nodemon server.ts"
+    "start":"node server.ts"
     }
 }
