@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'de-mo-api'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_11450C2413D14DF687B89F235C188489 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1D174976C53C4B4BA1E022AE76986F94 }}
           package: .
